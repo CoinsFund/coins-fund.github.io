@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>币链基金</title>
+<link href="css/base.css" type="text/css" rel="stylesheet">
+<link href="css/focus.css" type="text/css" rel="stylesheet">
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	$(function(){
+		var lstAll = $('.tz-lst li');
+		var lstMore = $('.tz-lst-more');
+		var lstDoc = $('.tz-lst-doc');
+		var lstText = $('.tz-lst-more-on');
+		lstMore.click(function(){
+			$(this).toggleClass('on').parent().find(lstDoc).toggleClass('on');
+			if($(this).hasClass('on')){
+				lstText.html('收起')
+			}else{
+				lstText.html('展开')
+			}
+		});
+	})
+</script>
+
+</head>
+<body>
+<!--Head-->
+<div class="head">
+	<div class="w1162 clearfix">
+		<img src="images/logo.png" width="142" height="47" class="fl mt20" />
+		<p class="fr f16 nnav">
+			<a href="index.html">首页</a>
+			<span class="nnav-bor">|</span>
+			<a href="tz.html" class="on">我要投资</a>
+			<span class="nnav-bor">|</span>
+			<a href="abouts.html">关于我们</a>
+		</p>
+	</div>
+</div>
+
+<div class="in-main">
+	<div class="w1162">
+		<ul class="tz-lst">
+			<li class="clearfix">
+				<img src="images/tz-pic1.jpg" class="n-letting fl" />
+				<div class="tz-lst-mnc fr">
+					<h4 class="tz-lst-tt relative f22 mb15">OTC套利基金<div class="tz-lst-bor absolute"></div></h4>
+					<p class="tz-lst-doc">基金的主要盈利模式为跨平台套利，套利也叫价差交易。根据目前几个平台的套利空间计算，预期年化收益率40%。跨平台量化交易基金采用了专业商品期货开发团队研发的全自动化套利交易系统进行全自动化交易，交易策略由专业的比特币炒币专家团队设计，并根据市场情况的变化而不断调整。<br />该基金所采取的比特币跨平台套利交易是利用A、B两个市场价格波动进行同时买入和卖出操作来实现赚取利润。例如，事前在A平台存入一定的资金,B平台存入等值的币,当出现套利机会时，A平台低买入币,B平台高卖出币。由于采用了全自动化套利交易系统，几乎在极短的时间内完成了两边操作，不存在时间差,规避了传统搬砖的风险。</p>
+					<div class="fr tz-lst-more relative f12">
+						<span class="tz-lst-more-on">展开</span>
+						<div class="tz-lst-icon absolute"></div>
+					</div>
+				</div>
+			</li>
+			<li class="clearfix">
+				<img src="images/tz-pic2.jpg" class="n-letting fl" />
+				<div class="tz-lst-mnc fr">
+					<h4 class="tz-lst-tt relative f22 mb15">COIN投资基金<div class="tz-lst-bor absolute"></div></h4>
+					<p class="tz-lst-doc">基金是完全投资于数字货币以追求资本利得和长期资本增值为投资目标，投资标的目前包含(BTC、ETH、ETC、LTC、ZEC)五种主流数字货币，根据整体行情，利用CME比特币期货和CBOE比特币期货对冲下跌风险，主要特点是，交易成本低、成交快、知晓度大、流动性好。该基金使投资者能够通过传统投资工具了解数字货币的价格走势，而不会面临购买，存储和保护数字货币的困扰。</p>
+				</div>
+			</li>
+			<li class="clearfix">
+				<img src="images/tz-pic3.jpg" class="n-letting fl" />
+				<div class="tz-lst-mnc fr">
+					<h4 class="tz-lst-tt relative f22 mb15">ICO投资基金<div class="tz-lst-bor absolute"></div></h4>
+					<p class="tz-lst-doc">团队成员来自软银、红杉等知名风投公司，拥有多年互联网领域的项目经验。我们对市场现有ICO项目进行筛选考察，寻找市场上最具有投资潜力的一部分ICO项目，再由经验丰富的专业团队对多个项目进行应用及参数的尽职调查，最后选定5%-10%的项目进行早鸟轮投资。在控制风险的前提下，以求做到收益最大化，本团队参投项目NEO历史收益已超过200倍。</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--Footer-->
+<p class="footer tac col68">Zenit Technolpgy Co.Ltd  (The Republic of Marshall Island)</p>
+</body>
+</html>

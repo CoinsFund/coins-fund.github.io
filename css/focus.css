@@ -1,0 +1,62 @@
+﻿/*首页*/
+.banner{height: 523px;background: url(../images/banner.jpg) no-repeat center bottom;}
+.banner-doc1{top: 120px;left: 380px;animation: bannerFlash1 0.5s forwards;opacity: 0;}
+@keyframes bannerFlash1{0%{left: 0px;opacity: 0;}100%{left: 380px;opacity: 1;}}
+@-webkit-keyframes bannerFlash1{0%{left: 0px;opacity: 0;}100%{left: 380px;opacity: 1;}}
+.banner-doc2{top: 199px;right: 255px;animation: bannerFlash2 0.5s forwards;opacity: 0;}
+@keyframes bannerFlash2{0%{right: 0px;opacity: 0;}100%{right: 255px;opacity: 1;}}
+@-webkit-keyframes bannerFlash2{0%{right: 0px;opacity: 0;}100%{right: 255px;opacity: 1;}}
+.banner-doc3{top: 274px;left: 402px;animation: bannerFlash3 0.5s 0.5s forwards;opacity: 0;background: rgba(1,100,177,0.8);padding:17px 39px;border-radius: 5px;}
+@keyframes bannerFlash3{0%{opacity: 0;}100%{;opacity: 1;}}
+@-webkit-keyframes bannerFlash3{0%{opacity: 0;}100%{opacity: 1;}}
+.home-introduce{padding-top: 92px;}
+.home-introduce-lst{width: 1300px;}
+.home-introduce-lst li{margin-top: 100px;width: 310px;height: 442px;margin-right: 116px;line-height: 2;}
+.home-introduce-style{background: url(../images/icon.png) no-repeat;width: 54px;height: 54px;margin: 0 auto;}
+.home-introduce-icon1{background-position: -11px -7px;}
+.home-introduce-icon2{background-position: -91px -7px;}
+.home-introduce-icon3{background-position: -161px -7px;}
+.home-introduce-lst h5{line-height: 85px;color: #384959;}
+.home-introduce-bor{height: 2px;width: 100px;margin: 0 auto 35px auto;background: #46c7f0;}
+.home-step{background: #f8f8f8;padding-top: 62px;height: 198px;}
+.home-step dt{float: left;color: #0083ce;width: 90px;}
+.home-step-style{background: url(../images/icon.png) no-repeat;width: 90px;height: 90px;margin: 0 auto 26px auto;}
+.home-step-icon1{background-position: -1px -72px;}
+.home-step-icon2{background-position: -92px -72px;}
+.home-step-icon3{background-position: -183px -72px;}
+.home-step-icon4{background-position: -274px -72px;}
+.home-step-icon5{background-position: -365px -72px;}
+.home-step dd{float: left;padding-top: 35px;width: 169px;}
+.home-text{margin: 15px 0;}
+.home-pic{width: 1200px;}
+.home-pic img{float: left;margin: 0 22px 134px 0;}
+.home-abouts{height: 340px;background: url(../images/home-abouts.jpg) no-repeat;background-size: 100% 100%;}
+.home-abouts p{line-height: 34px;}
+.home-abouts-more{width: 238px;line-height: 42px;border: 1px solid #fff;display: block;margin: 0 auto;color: #fff !important;}
+
+/*关于我们*/
+.in-main{background: url(../images/abouts-top.jpg) no-repeat top center;padding-top: 238px;}
+.abouts-tt{color: #384959;line-height: 66px;height: 66px;}
+.abouts-bor{width:50px;height: 2px;background: #46c7f0;left: 0;bottom: 0;}
+.abouts-pic{width: 1200px;}
+.abouts-pic img{float: left;margin: 0 22px 35px 0;}
+.abouts-text{line-height: 2;margin: 3px 0;}
+
+/*我要投资 */
+.tz-lst{margin-bottom: 180px;}
+.tz-lst li{padding: 40px 0;border-bottom: 1px dashed #dfdfdf;}
+.tz-lst li:last-child{border: none;}
+.tz-lst-mnc{width: 805px;}
+.tz-lst-tt{lighting-color: 1;height: 43px;}
+.tz-lst-bor{width:50px;height: 2px;background: #46c7f0;left: 0;bottom: 0;}
+.tz-lst-doc{line-height: 2;height: 84px;overflow: hidden;}
+.tz-lst-doc.on{height: auto;}
+.tz-lst-more{cursor: pointer;color: #46c7f0;padding-right: 15px;}
+.tz-lst-icon{background: url(../images/icon.png) no-repeat -485px -12px;width: 10px;height: 7px;right: 0;top: 5px;transition:all .3s ease;-webkit-transition:all .3s ease;}
+.tz-lst-more.on .tz-lst-icon{transform:rotate(-180deg);-moz-transform:rotate(-180deg);}
+
+
+
+
+
+
